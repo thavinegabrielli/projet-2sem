@@ -1,0 +1,55 @@
+header {
+    width: 100%;
+    height: 10vh;
+    background-color: var(--cor-primaria); /* Azul escuro conforme o mockup */
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 50%;
+    height: 100%;
+
+    margin: auto auto;
+}
+
+/* Classe para sobrescrever alguns comportamentos do menu dropdown */
+.btn-drop-custom {
+    background-color: transparent;
+    color: white;
+    border: none!important;
+    font-size: 1.5rem;
+}
+
+/* Classe para sobrescrever alguns comportamentos do menu dropdown */
+.btn-drop-custom:focus {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+/* Classe para sobrescrever alguns comportamentos do menu dropdown */
+.btn-drop-custom:hover {
+    background-color: transparent;
+    border: none!important;
+}
+
+.btn-drop-custom::selection {
+    background-color: transparent;
+    border: none!important;
+}
+
+a::selection {
+    background-color: red;
+}
+
+/* TÍTULO */
+h1 {
+    text-align: center;
+    font-size: 2.5rem; 
+    margin-top: 2rem;
+    color: black;
+}

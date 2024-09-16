@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Clientes</title>
+    <!-- BOOTSTRAP LIB -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <!-- BOOTSTRAP LIB - END -->
+
+    <link rel="stylesheet" href="css/estilo-padrao.css">
+    <link rel="stylesheet" href="css/navegacao.css">
+    <link rel="stylesheet" href="css/listagem.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="dropdown">
+                <button class="btn dropdown-toggle btn-drop-custom" type="button" id="dropdownMenuButton"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    CLIENTES
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="/">Cadastrar Cliente</a>
+                    <a class="dropdown-item" href="/listagem-clientes.html">Listagem Clientes</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="btn dropdown-toggle btn-drop-custom" type="button" id="dropdownMenuButton"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    VEÍCULOS
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">Cadastrar Veículo</a>
+                    <a class="dropdown-item" href="#">Listagem Veículos</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="btn dropdown-toggle btn-drop-custom" type="button" id="dropdownMenuButton"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    VENDAS
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">Cadastrar Venda</a>
+                    <a class="dropdown-item" href="#">Listagem Vendas</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <h1>LISTAGEM DE CLIENTES</h1>
+    <div class="container-tabela">
+        <table>
+            <thead>
+                <tr>
+                    <th>ID CLIENTE</th>
+                    <th>NOME</th>
+                    <th>CPF</th>
+                    <th>TELEFONE</th>
+                    <th>AÇÕES</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>APARECIDA EVELYN ISABELLE DA ROCHA</td>
+                    <td>664.851.780-82</td>
+                    <td>(96) 98230-6325</td>
+                    <td>
+                        <img src="assets/pencil-square.svg" alt="editar">
+                        <img src="assets/trash-fill.svg" alt="excluir">
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>SEVERINO GERALDO FERNANDES</td>
+                    <td>353.240.796-50</td>
+                    <td>(91) 98158-9367</td>
+                    <td>
+                        <img src="assets/pencil-square.svg" alt="editar">
+                        <img src="assets/trash-fill.svg" alt="excluir">
+                    </td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>JAQUELINE AMANDA ADRIANA MARTINS</td>
+                    <td>102.173.781-02</td>
+                    <td>(84) 99548-7514</td>
+                    <td>
+                        <img src="assets/pencil-square.svg" alt="editar">
+                        <img src="assets/trash-fill.svg" alt="excluir">
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>
