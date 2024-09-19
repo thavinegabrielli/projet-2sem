@@ -16,40 +16,17 @@ nav {
     margin: auto auto;
 }
 
-/* Classe para sobrescrever alguns comportamentos do menu dropdown */
-.btn-drop-custom {
-    background-color: transparent;
+a {
     color: white;
-    border: none!important;
     font-size: 1.5rem;
+    text-decoration: none;
 }
 
-/* Classe para sobrescrever alguns comportamentos do menu dropdown */
-.btn-drop-custom:focus {
-    background-color: transparent;
-    border: none;
-    box-shadow: none;
-}
-
-/* Classe para sobrescrever alguns comportamentos do menu dropdown */
-.btn-drop-custom:hover {
-    background-color: transparent;
-    border: none!important;
-}
-
-.btn-drop-custom::selection {
-    background-color: transparent;
-    border: none!important;
+a:hover {
+    color: var(--bg-color);
+    text-decoration: none;
 }
 
 a::selection {
     background-color: red;
-}
-
-/* TÍTULO */
-h1 {
-    text-align: center;
-    font-size: 2.5rem; 
-    margin-top: 2rem;
-    color: black;
 }
